@@ -5,7 +5,8 @@
 }
 
 body {
-
+  background-size: cover;
+  background-position: center;
   font-size: 1.1rem;
   font-family: 'Open Sans';
   width: 70%;
@@ -13,10 +14,7 @@ body {
 }
 
 .section {
-  background-color: var(--white);
-}
-
-.header {
+  /* background-color: var(--white); */
 }
 
 .heading {
@@ -80,4 +78,11 @@ footer {
 .divider {
   width: 90%;
   margin: 3rem;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
