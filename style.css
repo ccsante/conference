@@ -26,7 +26,9 @@ body {
 }
 .sub-heading {
   font-size: 1.5rem;
-  color: var(--secondary-colour);
+  color: #ffffff;
+  font-weight: 800;
+  background-color: #ec2828;
   margin: 0;
   text-align: center;
 }
