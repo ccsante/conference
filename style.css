@@ -25,12 +25,17 @@ body {
   margin-top: 2rem;;
 }
 .sub-heading {
+  width: 236px;
+  height: 36px;
   font-size: 1.5rem;
   color: #ffffff;
   font-weight: 800;
-  background-color: #ec2828;
-  margin: 0;
+  background-color: #ee9798;
+  margin: 0 auto;
   text-align: center;
+  padding-bottom: 0.2rem;
+  padding-right: 0.2rem;
+  padding-left: 0.2rem;
 }
 
 .heading2 {
