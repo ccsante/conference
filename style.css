@@ -10,7 +10,7 @@ body {
   font-size: 1.1rem;
   font-family: 'Open Sans';
   width: 70%;
-  margin: 0 auto;
+  margin: 0 10%;
 }
 
 .section {
@@ -92,4 +92,64 @@ canvas {
   top: 0;
   left: 0;
   z-index: -1;
+}
+
+.schedule-table {
+  display: grid;
+  grid-template-columns: 20% 75%; /* Adjust column width as needed */
+  row-gap: 1rem;
+  justify-content: center;
+  
+}
+
+.time{
+  width: 100%;
+  height:  auto;
+  background-color: #ee9798;
+  border-radius: 10px;
+}
+
+p.timetext {
+  text-align: center;
+  justify-self: center;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.event{
+  text-align: left;
+  justify-self: left;
+  align-self: start;
+  margin-left: 2rem;
+  text-wrap: warp;
+  color: #8d6262;
+}
+
+h3.event-heading{
+  margin-top: 0;
+}
+
+
+.schedule-table-container {
+  padding: 0px;
+  text-align: center;
+}
+
+.speakers-container{
+  padding: 1em 1em 0;
+}
+
+.speakerdetails{
+  display: flex;
+  height: 24rem;
+  width: auto;
+  margin: auto;
+}
+
+img{
+  height:250px
+}
+
+.speaker_bio{
+  margin: 20px auto;
 }
