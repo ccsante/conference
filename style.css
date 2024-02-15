@@ -28,7 +28,7 @@ body {
   width: 236px;
   height: 36px;
   font-size: 1.5rem;
-  color: #ffffff;
+  color: var(--white);
   font-weight: 800;
   background-color: var(--primary-colour);
   margin: 0 auto;
@@ -147,7 +147,7 @@ h3.event-heading{
 }
 
 .speaker_img{
-  
+  border-radius: 100px;
   margin: 5%;
   filter: grayscale(100%)
 }
@@ -178,12 +178,31 @@ h3.event-heading{
 .speaker_links{
   font-style: oblique;
   color: var(--primary-colour);
+  font-size: smaller;
 }
 
 img{
   height:250px
+  
 }
 
 .speaker_bio{
   margin: 20px auto;
+}
+
+.rsvp_button{
+  background-color: var(--primary-colour);
+  border-radius: 10px;
+  text-align: center;
+  padding: 0.5em 1em;
+
+}
+
+.event_location{
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.event_date{
+  margin-bottom: 0;
 }
