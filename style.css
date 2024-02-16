@@ -206,3 +206,34 @@ img{
 .event_date{
   margin-bottom: 0;
 }
+
+/* responsive */
+@media only screen and (max-width: 768px) {
+  body {
+    width: 90%;
+    margin: 0 5%;
+  }
+  .section {
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .divider {
+    margin: 0;
+  }
+  .open-call-list {
+    padding: 0;
+  }
+
+  .schedule-table {
+    display: grid;
+    grid-template-columns: 100%;
+    row-gap: 1rem;
+    justify-content: center;
+  }
+
+  .speakerdetails {
+    flex-direction: column;
+  }
+
+}
