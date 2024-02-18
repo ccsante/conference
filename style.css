@@ -149,7 +149,7 @@ h3.event-heading{
 .speaker_img{
   border-radius: 100px;
   margin: 5%;
-  filter: grayscale(100%)
+  filter: grayscale(100%);
 }
 
 .speaker_img:hover{
