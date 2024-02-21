@@ -238,6 +238,13 @@ img{
 
   .nav-list {
     width: 80%;
+    flex-wrap: wrap;
   }
+  .nav-list-item {
+    width: 40%;
+    text-align: center;
+    margin: 5%;
+    list-style: none;
+}
 
 }
